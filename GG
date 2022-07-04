@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#one{
+height:50px;
+width:200px;
+font-size:40px;
+}
+#two{
+height: 50px;
+width: 100px;
+}
+</style>
+</head>
+<body>
+<h1>write a num</h1><br><br>
+<h2 id="id01">Old Heading</h2>
+<br><br>
+<input type="text" id="one">
+<br><br>
+<button id="two" onclick="print()"></button>
+
+<script>
+function print(){
+var x ;
+var y = one.value
+document.getElementById("id01").innerHTML = y;
+
+if(y == 384){
+document.getElementById("id01").innerHTML = "wissal?";
+ }
+//else{
+//document.getElementById("id01").innerHTML = "mthbch wissal?";
+//}
+ 
+}
+
+</script>
+
+
+
+</body>
+</html> 
